@@ -135,7 +135,7 @@ margin: auto;
 .section-timeline{
   background-color: white;
   height: 100vh;
-  margin-top: -8px;
+  /* margin-top: -8px; */
 }
 
 /* The actual timeline (the vertical ruler) */

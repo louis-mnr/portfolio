@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="art-design.png" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cards.css">
   </head>
   <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -35,6 +36,11 @@
         <img src="dechirure2.png" alt="déchirure haut" class="dechirure-haut">
       </div>
     </div>
+
+    <?php
+      include("cards.php");
+    ?>
+
     <div class="section-timeline">
 
       <div class="timeline">
@@ -95,6 +101,7 @@
 
     </div>
 
-    <script src="portfolio.js"></script>
+    <script type="text/javascript" src="portfolio.js"></script>
+    <script type="text/javascript" src="cards.js"></script>
   </body>
 </html>
