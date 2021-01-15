@@ -1,6 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
+
+.cards-row{
+  display:flex; background-color: white; margin-top:-8px; margin-bottom:64px; justify-content: center; padding-top:40px;
+}
+
+#row-1{
+  /* position:relative; */
+  left: -120px;
+}
+#row-2{
+    position:relative;
+  left: 120px;
+}
 .cards-portfolio {
   background-color: #000000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -16,6 +29,8 @@
   position: relative;
   text-align: left;
   width: 100%;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .cards-portfolio * {

@@ -57,6 +57,20 @@ margin: auto;
   text-transform: uppercase;
   padding-top:10px;
 }
+
+.project-title{
+  width: 100%;
+  font-weight: 800;
+  color: transparent;
+  font-size:120px;
+  background: url("graffitiFond.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position:relative;
+  text-align:center;
+  line-height:90px;
+  letter-spacing: -8px;
+}
 /* >>>>>>>>> Fin Animation Titre <<<<<<<<< */
 
 /* >>>>>>>>> Burger Menu <<<<<<<<< */
@@ -118,8 +132,8 @@ margin: auto;
 
 #dechirure{
     width: 100vw;
-  /* background-image: url("berlinGraffiti.jpg"); */
-  background-image: url("graffitiFond.jpg");
+    background-image: url("berlingraffiti.jpg");
+  /* background-image: url("graffitiFond.jpg"); */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
